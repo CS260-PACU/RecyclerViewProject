@@ -26,6 +26,13 @@ public class MainActivity extends AppCompatActivity {
         allData.add(new DataModel("Go", "Boxers"));
         allData.add(new DataModel("Strain", "Price"));
         allData.add(new DataModel("Marsh", "Scott"));
+        allData.add(new DataModel("Math", "Oregon"));
+        allData.add(new DataModel("Data Science", "Forest Grove"));
+        allData.add(new DataModel("Red", "Black"));
+        allData.add(new DataModel("Up", "Down"));
+        allData.add(new DataModel("Left", "Right"));
+        allData.add(new DataModel("Table", "Chair"));
+        allData.add(new DataModel("Android", "Phone"));
 
         DataModelRecyclerViewAdapter adapter = new DataModelRecyclerViewAdapter (allData);
 
